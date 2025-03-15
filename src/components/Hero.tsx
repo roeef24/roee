@@ -25,16 +25,24 @@ const Hero = () => {
       
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
+        <div className="mb-10 flex justify-center">
+          <div 
+            className={`w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-theme-accent transition-all duration-1000 ${loaded ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}
+          >
+            <img 
+              src="/lovable-uploads/434152a0-8b92-449e-b882-e2c3193d9b85.png" 
+              alt="Roee Farjoun" 
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+        
         <h1 
-          className={`text-5xl md:text-7xl lg:text-8xl font-serif font-medium mb-6 transition-all duration-1000 ${loaded ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10'}`}
+          className={`text-4xl md:text-5xl lg:text-6xl font-serif font-medium mb-8 transition-all duration-1000 ${loaded ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10'}`}
         >
-          Work fast. Live slow.
+          Hey, welcome to my little home on the internet
         </h1>
-        <p 
-          className={`text-xl md:text-2xl lg:text-3xl mb-12 max-w-3xl mx-auto text-theme-light/80 transition-all duration-1000 delay-300 ${loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
-        >
-          Create your digital reality.
-        </p>
+        
         <div className={`transition-all duration-1000 delay-500 ${loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <Link 
             to="/about" 
