@@ -40,7 +40,7 @@ const Hero = () => {
         <h1 
           className={`text-4xl md:text-5xl lg:text-6xl font-serif font-medium mb-8 transition-all duration-1000 ${loaded ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10'}`}
         >
-          Hey, welcome to my little home on the internet
+          Hey 👋, welcome to my little home on the internet
         </h1>
         
         <div className={`transition-all duration-1000 delay-500 ${loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
