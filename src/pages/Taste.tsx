@@ -1,6 +1,7 @@
+
 import { useState } from 'react';
 import Layout from '@/components/Layout';
-import { Book, Headphones, Mail, MessageSquare, Bookmark, Box, Tool, Quote } from 'lucide-react';
+import { Book, Headphones, Mail, MessageSquare, Bookmark, Box, Wrench, Quote } from 'lucide-react';
 
 const Taste = () => {
   const [activeTab, setActiveTab] = useState('all');
@@ -12,7 +13,7 @@ const Taste = () => {
     { id: 'newsletters', label: 'Newsletters', icon: <Mail className="h-4 w-4" /> },
     { id: 'meditations', label: 'Meditations', icon: <MessageSquare className="h-4 w-4" /> },
     { id: 'products', label: 'Products', icon: <Box className="h-4 w-4" /> },
-    { id: 'tools', label: 'Tools', icon: <Tool className="h-4 w-4" /> },
+    { id: 'tools', label: 'Tools', icon: <Wrench className="h-4 w-4" /> },
     { id: 'quotes', label: 'Quotes', icon: <Quote className="h-4 w-4" /> }
   ];
   
