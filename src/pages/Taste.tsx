@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import Layout from '@/components/Layout';
 import { Book, Headphones, Mail, MessageSquare, Bookmark, Box, Tool, Quote } from 'lucide-react';
@@ -59,7 +58,7 @@ const Taste = () => {
     "The moment you know, you know, you know - David Bowie, Where Are We Now",
     "Salt is so humble that when something goes wrong, it takes the blame, and when everything goes right, it doesn't take credit.- Jay Shetty",
     "He was an individual individual - The Alpinist",
-    "We are of nature ladies and gentlemen, not above nature - Stuart Kauffman, The "Adjacent Possible"",
+    "We are of nature ladies and gentlemen, not above nature - Stuart Kauffman, The \"Adjacent Possible\"",
     "Just for today make a change, be aware that the only constant is change. So do something new, go somewhere new, meet somebody new, think something new and allow your world to change as a result - Tom Evans",
     "I would have written you a shorter letter, but I did not have the time.- Blaise Pascal",
     "No matter where you go, there you are- Buckaroo Banzai",
