@@ -27,7 +27,8 @@ const Hero = () => {
       <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
         <div className="mb-10 flex justify-center">
           <div 
-            className={`w-56 h-56 md:w-[19rem] md:h-[19rem] rounded-full overflow-hidden border-4 border-theme-accent transition-all duration-1000 ${loaded ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}
+            className={`w-[62px] h-[62px] md:w-[21rem] md:h-[21rem] rounded-full overflow-hidden border-4 border-theme-accent transition-all duration-1000 ${loaded ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}
+            style={{ boxShadow: '0 0 30px 5px rgba(255, 255, 255, 0.3)' }}
           >
             <img 
               src="/lovable-uploads/434152a0-8b92-449e-b882-e2c3193d9b85.png" 
