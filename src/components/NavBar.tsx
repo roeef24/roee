@@ -51,16 +51,6 @@ const NavBar = () => {
           </li>
           <li>
             <NavLink 
-              to="/about" 
-              className={({isActive}) => 
-                isActive ? "nav-link active" : "nav-link"
-              }
-            >
-              About
-            </NavLink>
-          </li>
-          <li>
-            <NavLink 
               to="/work" 
               className={({isActive}) => 
                 isActive ? "nav-link active" : "nav-link"
@@ -71,12 +61,32 @@ const NavBar = () => {
           </li>
           <li>
             <NavLink 
+              to="/writing" 
+              className={({isActive}) => 
+                isActive ? "nav-link active" : "nav-link"
+              }
+            >
+              Writing
+            </NavLink>
+          </li>
+          <li>
+            <NavLink 
               to="/taste" 
               className={({isActive}) => 
                 isActive ? "nav-link active" : "nav-link"
               }
             >
               Taste
+            </NavLink>
+          </li>
+          <li>
+            <NavLink 
+              to="/running" 
+              className={({isActive}) => 
+                isActive ? "nav-link active" : "nav-link"
+              }
+            >
+              Running
             </NavLink>
           </li>
         </ul>
@@ -107,16 +117,6 @@ const NavBar = () => {
           </li>
           <li className="py-2">
             <NavLink 
-              to="/about" 
-              className={({isActive}) => 
-                isActive ? "nav-link active" : "nav-link"
-              }
-            >
-              About
-            </NavLink>
-          </li>
-          <li className="py-2">
-            <NavLink 
               to="/work" 
               className={({isActive}) => 
                 isActive ? "nav-link active" : "nav-link"
@@ -127,12 +127,32 @@ const NavBar = () => {
           </li>
           <li className="py-2">
             <NavLink 
+              to="/writing" 
+              className={({isActive}) => 
+                isActive ? "nav-link active" : "nav-link"
+              }
+            >
+              Writing
+            </NavLink>
+          </li>
+          <li className="py-2">
+            <NavLink 
               to="/taste" 
               className={({isActive}) => 
                 isActive ? "nav-link active" : "nav-link"
               }
             >
               Taste
+            </NavLink>
+          </li>
+          <li className="py-2">
+            <NavLink 
+              to="/running" 
+              className={({isActive}) => 
+                isActive ? "nav-link active" : "nav-link"
+              }
+            >
+              Running
             </NavLink>
           </li>
         </ul>

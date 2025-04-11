@@ -2,12 +2,16 @@
 import { useState, useEffect } from 'react';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+
 const Hero = () => {
   const [loaded, setLoaded] = useState(false);
+  
   useEffect(() => {
     setLoaded(true);
   }, []);
-  return <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  
+  return (
+    <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 bg-theme-dark z-0">
         <div className="w-full h-full bg-[url('/lovable-uploads/c0d1784b-f5f1-4bd0-9d3b-365d20bcaffd.png')] bg-cover bg-center opacity-50" style={{
@@ -31,12 +35,14 @@ const Hero = () => {
         </h1>
         
         <div className={`transition-all duration-1000 delay-500 ${loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          <Link to="/about" className="inline-flex items-center py-3 bg-theme-accent hover:bg-theme-accent-light text-theme-darker font-medium rounded-full transition-colors px-[24px]">
-            Learn more about me
+          <Link to="/work" className="inline-flex items-center py-3 bg-theme-accent hover:bg-theme-accent-light text-theme-darker font-medium rounded-full transition-colors px-[24px]">
+            See my work
             <ArrowRight className="ml-2 h-5 w-5" />
           </Link>
         </div>
       </div>
-    </div>;
+    </div>
+  );
 };
+
 export default Hero;
