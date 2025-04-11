@@ -1,6 +1,6 @@
 
 import Layout from '@/components/Layout';
-import { Running as RunningIcon, ExternalLink } from 'lucide-react';
+import { Activity, ExternalLink } from 'lucide-react';
 
 const Running = () => {
   const favoriteRuns = [
@@ -16,7 +16,7 @@ const Running = () => {
       <div className="content-container page-transition">
         <div className="max-w-4xl mx-auto">
           <h1 className="section-title animate-fade-up flex items-center gap-2">
-            <RunningIcon className="h-8 w-8" />
+            <Activity className="h-8 w-8" />
             <span>Running</span>
           </h1>
           
